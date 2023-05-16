@@ -31,6 +31,9 @@ const Layout = ({ children }: Props) => {
         <Link href={"/to-do"}>
           <button>TO-DO List</button>
         </Link>
+        <Link href={"/windmill"}>
+          <button>Windmill</button>
+        </Link>
       </header>
       <main>{children}</main>
     </div>
